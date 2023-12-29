@@ -12,6 +12,8 @@
 	var dynamicContent = getParameterByName('dc');
 
 	 $(document).ready(function() {
+	    $('#order').hide();
+	    $('#default').hide();
 		if (dynamicContent == 'order') {
 			$('#order').show();
 		}
